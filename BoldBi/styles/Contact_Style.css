@@ -1,0 +1,467 @@
+
+@import url('http://fonts.cdnfonts.com/css/caros');            
+body
+{
+    margin:0px;
+    padding:0;
+    font-family: 'CarosBold',sans-serif;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+/* Nav bar design */
+.nav
+{
+
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    top:-2px;
+    position: fixed; 
+    color: black;
+    background-color: white;
+}
+.nav img
+{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+ul li:link
+{
+ color:black
+}
+.nav ul li
+{
+    display:block;
+    float: left;
+    margin-right: 20px;
+    padding-left:20px;
+}
+
+.nav  ul li a 
+{
+    text-decoration: none;
+    color:#283a5e;
+}
+.nav ul li a:hover
+{
+    color:#ff4800;
+}
+.nav ul
+{
+    padding-left: 100px;
+    padding-bottom: 40px;
+    float: right;
+}
+
+.nav ul li:visited
+{
+    color: black;
+}
+.nav ul li:link
+{
+    color: black;
+}
+/* Nav bar design end */
+/* Home section design */
+#home
+{
+    width:100%;
+    height: 80%;
+}
+#home .home
+{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+#home .home .phone
+{
+    position: relative;
+    top:30px;
+    margin-top: 50px;
+    width:40%;
+}
+#home .home .phone img
+{
+    height: 60px;
+    width: 60px;
+}
+#home .home .phone h2
+{
+    color:#283a5e;
+    font-size: 25px;
+    line-height: 30px;
+}
+#home .home .phone p
+{
+    color:#3c4d6f;
+    font-size: 16px;
+    line-height: 24px;
+}
+#home .home .phone span
+{
+    font-size: 16px;
+}
+
+#home .home
+{
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+#home .home .chat img
+{
+    height: 60px;
+    width: 60px;
+}
+#home .home .chat h2
+{
+    color:#283a5e;
+    font-size: 25px;
+    line-height: 30px;
+}
+#home .home .chat p
+{
+    color:#3c4d6f;
+    font-size: 16px;
+    line-height: 24px;
+}
+#home .home .chat a
+{
+    text-decoration: none;
+    font-size:16px;
+    color:#FF4800;
+    line-height: 30px;
+    padding-top: 16px;
+}
+#home .home .chat a img
+{
+    position: relative;
+    top:4px;
+    width:16px;
+    height:18px;
+}
+/* form design */
+#home .contactform
+{
+    background-color:#fff;
+    padding:20px;
+    position: absolute;
+    left:650px;
+    top:80px;
+    height:560px;
+    width:450px;
+    font-family: 'CarosBold',sans-serif;
+    box-shadow: 3px 3px 10px black;
+
+}
+
+#home .contactform h2
+{
+    color:#283A5E;
+    text-align: center;
+    font-size: 26px;
+}
+#home .contactform p
+{
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color:#283A5E;
+}
+#home .contactform form
+{
+    
+    padding-right: 10px;
+}
+#home .contactform input[type="text"]:focus
+{
+    outline: none !important;
+    border:1px solid #FF4800;
+}
+#home .contactform input[type="email"]:focus
+{
+    outline: none !important;
+    border:1px solid #FF4800;
+}
+#home .contactform input[type="number"]:focus
+{
+    outline: none !important;
+    border:1px solid #FF4800;
+}
+#home .contactform textarea:focus
+{
+    outline: none !important;
+    border:1px solid #FF4800;
+}
+
+#home .contactform input[type="text"]
+{
+    width: 100%;
+    padding:8px;
+    background-color: #fff;
+    border:1px solid lightgray;
+}
+#home .contactform input[type="email"],#home .contactform input[type="number"]
+{
+    width: 100%;
+    padding:8px;
+    background-color: #fff;
+    border:1px solid lightgray;
+}
+#home .contactform textarea
+{
+    width: 100%;
+    padding:8px;
+    background-color: #fff;
+    resize:vertical;
+    border:1px solid lightgray;
+}
+#home .contactform form label[for="agree"]
+{
+    font-family: caros,sans-serif;
+    font-size: 14px;
+    color :#283A5E;
+}
+
+#home .contactform form a 
+{
+    text-decoration: none;
+    color:#FF4800;
+}
+#home .contactform form a:hover
+{
+    color:#ad3224;
+}
+#home .contactform input[type="submit"]
+{
+    background-color: #FF4800;
+    border:none;
+    width:99%;
+    height: 50px;
+    border-radius: 2px;
+    color:#ffffff;
+    font-weight: 400;
+    font-size: large;
+}
+#home .contactform input[type="submit"]:hover
+{
+    color:#FF4800;
+    background-color:#fff1ef;
+    cursor: pointer;
+}
+/* Home section design end */
+
+
+/* Office location */
+#officelocation
+{
+    position: relative;
+    top:190px;
+    left:60px;
+    width: 100%;
+    height:100%
+}
+#officelocation #head 
+{
+    text-align: center;
+}
+#officelocation .row .column .card h2
+{
+    margin-left: 10px;
+    color:#283a5e;
+    font-size: 19px;
+}
+
+#officelocation .row .column .card p
+{
+    margin-left: 10px;
+    line-height: 29px;
+    font-size: 16px;
+    color:#283a5e;
+}
+#officelocation .row .column 
+{
+
+    width:30%;
+    float:left;
+    padding:10px;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+}
+#officelocation .row .column img
+{
+    width: 100%;
+}
+#officelocation .row .column .card
+{
+    width:350px;
+    height:430px;
+    background-color: #fff;
+    border:1px solid rgb(99, 99, 99);
+}
+#clear
+{
+    clear:left;
+}
+/* Office location end*/
+
+/* Follow us */
+#social 
+{
+    position: absolute;
+    top:290%;
+    width: 100%;
+    height: 100%;
+}
+#social .socialicon h2
+{
+    color: #545e77;
+    font-size: 21px;
+    position: relative;
+    top:30px;
+    left:30%;
+}
+#social .socialicon .icon ul
+{
+    float:left;
+    display: inline-flex;
+}
+#social .socialicon .icon ul li
+{
+    padding:5px;
+    list-style: none;
+    position: relative;
+    top:-45px;
+    left:170%;
+    color:#fff;
+}
+
+#iconclear
+{
+    clear:left;
+}
+/* Follow us end */
+
+
+/* Footer section */
+#footer
+{
+    position: absolute;
+    top:310%;
+    float:left;
+    width: 100%;
+    font-family: 'Caros',sans-serif;
+}
+#footer .logo img
+{
+
+    position: relative;
+    left:100px;
+    top:40px;
+}
+#footer .quicklink span
+{
+    font-size: 18px;
+    color:#283a5e;
+    font-style: bold;
+}
+#footer .quicklink a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color:#283a5e;
+    line-height: 35px;
+}
+#footer .quicklink .product
+{
+    position: relative;
+    left:40%;   
+}
+#footer .quicklink .solution
+{
+    position: relative;
+    left:40%;
+    top:20px;
+}
+#footer .quicklink .support
+{
+    position: relative;
+    left:60%;
+    top:-220px;
+}
+#footer .quicklink .resources
+{
+    position: relative;
+    left:60%;
+    top:-185px;
+}
+#footer .quicklink .company
+{
+    position: relative;
+    left:75%;
+    top:-580px;
+}
+#footer .quicklink .account
+{
+    position: relative;
+    left:75%;
+    top:-560px;
+}
+#footer .quicklink .follow
+{
+    position: relative;
+    left:75%;
+    top:-530px;
+}
+#footer .quicklink .follow img
+{
+    position: relative;
+    top:10px;
+    width:24px;
+    height: 24px;
+}
+#footer .quicklink a:hover
+{
+    color:#ad3224;
+}
+/* Footer section end */
+
+/* Copy write section  */
+#copy
+{
+    position: absolute;
+    top:400%;
+    width: 100%;
+    text-align: center;
+}
+
+#copy .copywrite a
+{ 
+    text-decoration: none;
+    color:#FF4800;
+}
+#copy .copywrite #copycat
+{
+    padding:10px;
+    color:#828893;
+}
+#copy .copywrite #copycat:hover
+{
+    color:#ad3224;
+}
+#copy .copywrite a:hover
+{
+    color:#ad3224;
+}
+/* Copy write section end */
+/* chat */
+.chatop
+{
+    position: fixed;
+    float: right;
+    right:20px;
+    bottom:20px;
+}
